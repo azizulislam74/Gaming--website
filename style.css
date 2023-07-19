@@ -12,12 +12,15 @@ body {
 
 /* header Style */
 header {
-    margin: 0px 240px;
+    
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 40px auto;
+    margin: 0px 240px;
+    
 
 }
 .logo {
@@ -42,9 +45,82 @@ div ul {
 }
 .menu-item {
     display: flex;
+    padding: 10px;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 500;
     
 }
 ul >li >a {
     text-decoration: none;
     padding-left: 32px;
+}
+.icon-link{
+    display: flex;
+    padding:18px 24px;
+    margin-left: 32px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.fa-youtube{
+    padding:0px 24px;
+}
+.icon-link >li>a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* main section style  */
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+
+}
+
+.play p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #534C64;;
+}
+
+.play-title {
+    font-size: 5rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-titel-two {
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+.btn-one {
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: 0;
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.btn-two {
+    padding: 21px 40px;
+    border-radius: 48px;
+    background-color: #4EC5F7;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
